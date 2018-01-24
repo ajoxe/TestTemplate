@@ -64,7 +64,7 @@ public class DetailFragment extends Fragment {
                         .resize(500, 500)
                         .onlyScaleDown()
                         .centerInside()
-                        .into(logo);git push --set-upstream origin master
+                        .into(logo);
             }
             title.setText(dataModel.getTitle());
             company.setText(dataModel.getCompany());
